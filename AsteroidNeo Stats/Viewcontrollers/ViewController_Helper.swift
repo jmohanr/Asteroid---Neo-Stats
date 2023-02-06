@@ -126,7 +126,7 @@ extension ViewController {
         let dates = objects.map({$0.close_approach_data?[0].close_approach_date})
         
         let unique = Array(Set(dates))
-        
+        stats.removeAll()
         for obj in unique {
             let item = objects.filter({$0.close_approach_data?[0].close_approach_date == obj})
             if let name = obj {
