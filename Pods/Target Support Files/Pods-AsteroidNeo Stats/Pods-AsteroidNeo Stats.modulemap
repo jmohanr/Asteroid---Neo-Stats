@@ -1,0 +1,6 @@
+framework module Pods_AsteroidNeo_Stats {
+  umbrella header "Pods-AsteroidNeo Stats-umbrella.h"
+
+  export *
+  module * { export * }
+}
